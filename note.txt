@@ -1,0 +1,21 @@
+از جادی میترسم ... بریم ببینیم چ گوهی از توش در میاد
+
+jango is a mvc framework :
+model
+view
+control
+
+>>> git status
+     .idea/
+        bestoon/
+        db.sqlite3
+        manage.py
+        note.txt
+
+ROOT : create-file => .gitignore => add the name of files you dont want to be tracked
+
+>>> git status
+        bestoon/
+        manage.py
+        note.txt
+
