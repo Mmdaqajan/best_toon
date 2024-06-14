@@ -19,3 +19,14 @@ ROOT : create-file => .gitignore => add the name of files you dont want to be tr
         manage.py
         note.txt
 
+>>>git add -A
+>>>git commit -m 'initial commit'
+___________________________________________________________________________________________________
+>>>import datetime
+>>>now = datetime.datetime.now()
+>>>me = User.objects.get()    چون فقط یک یوزر داریم منو برمیگردونه
+>>>Expense.objects.create(user=me, description='sigarette', date=now, amount=25000)
+>>>kharj = Expense.objects.create(user=me, description='sigarette', date=now, amount=25000)
+>>>kharj.save()
+___________________________________________________________________________________________________
+
