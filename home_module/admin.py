@@ -1,7 +1,12 @@
 from django.contrib import admin
+from home_module.models import Expense, Income
 
-from home_module.models import Expense
+#
+# class ExpenseModelAdmin(admin.ModelAdmin):
+#     fields = '__all__'
+#     list_editable = ['amount']
 
-# Register your models here.
 
 admin.site.register(Expense)
+admin.site.register(Income)
+
